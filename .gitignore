@@ -1,0 +1,15 @@
+# vscode
+.vscode/*
+
+# rust
+debug/
+target/
+**/*.rs.bk
+*.pdb
+
+# database 
+*.db
+
+# environment
+.env*
+

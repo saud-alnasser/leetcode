@@ -1,0 +1,5 @@
+build
+**/*.md
+pnpm-lock.yaml
+system/**
+src//utils/bindings.ts
