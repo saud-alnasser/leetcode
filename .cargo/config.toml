@@ -1,0 +1,2 @@
+[alias]
+leet = "run -r -p leetcode_cli --"
