@@ -5,6 +5,10 @@ impl Solution {
     pub fn longest_common_prefix(words: Vec<String>) -> String {
         let mut output = String::new();
 
+        if words.len() == 0 {
+            return output;
+        }
+
         let mut i = 0;
 
         loop {
